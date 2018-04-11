@@ -33,11 +33,11 @@ a:hover {
 	width: 100%;
 	height: 100%;
 	background: #000;
-	opacity: 0.85;
+	opacity: 0.75;
 }
 
 .logo {
-	width: 150px;
+	width: 170px;
 	height: 50px;
 	opacity: 0.7;
 	transition: 0.5s;
@@ -87,18 +87,17 @@ a:hover {
 	display: block;
 	position: relative;
 	color: #fff;
-	font-size: 50px;
+	font-size: 2.8rem;
 	text-align: center;
 	padding-top: 30%;
 }
 
 .title::after {
 	position: absolute;
-	left: 2px;
+	left: 0;
 	top: 100%;
 	content: '';
-	width: 105%;
-	padding: 0;
+	width: 100%;
 	padding-bottom: 5px;
 	background-color: orange;
 }
@@ -220,7 +219,7 @@ a:hover {
 .slide-content span {
 	position: absolute;
 	bottom: 50px;
-	left: 100px;
+	left: 10vh;
 	font-size: 5rem;
 	color: #fff;
 }
@@ -238,7 +237,7 @@ a:hover {
 	font-size: 20px;
 	color: #fff;
 	text-align: center;
-	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	opacity: 0.5;
 	line-height: 35em;
 }
@@ -248,23 +247,23 @@ a:hover {
 }
 
 .arrow-left {
-	background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+	background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 0.0001) 100%);
 	background-repeat: repeat-x;
 }
 
 .arrow-left:hover {
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .0001) 100%);
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.0001) 100%);
 }
 
 .arrow-right {
 	right: 0;
   left: auto;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
 	background-repeat: repeat-x;
 }
 
 .arrow-right:hover {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 1) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 .slider-indicators {
@@ -292,8 +291,6 @@ a:hover {
 
 .about-us {
 	background-color: rgba(0, 0, 0, 0.4);
-	padding-bottom: 60px;
-	border-bottom: 3px solid #fff;
 }
 
 .title-info {
@@ -348,6 +345,7 @@ a:hover {
 
 .about-us h3 {
 	padding-top: 10px;
+	text-align: center;
 	padding-bottom: 10px;
 	font-size: 2rem;
 	color: rgba(255, 255, 255, 0.8);
@@ -378,25 +376,32 @@ a:hover {
 	transition: 0.5s ease;
 }
 
+.www {
+	max-width: 100%;
+	height: auto;
+}
+
 .services {
-	background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: rgb(255, 255, 255);
+	background-repeat: no-repeat;
+	background-position: top center;
   border-bottom: 3px solid #fff;
-	padding-top: 10px;
 	padding-bottom: 40px;
+}
+
+.title-services {
+	color: rgb(35, 39, 51);
 }
 
 .menu-services__item {
 	text-align: center;
-	color: #fff;
+	color: rgb(35, 39, 51);
 }
 
 .menu-services__item h3 {
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
-
 
 .footer {
 	height: 55px;
@@ -409,8 +414,7 @@ a:hover {
 
 .copyright span {
   display: block;
-  color: #000;
-  font-weight: bold;
+  color: rgb(35, 39, 51);
   text-align: left;
 }
 
@@ -428,6 +432,7 @@ a:hover {
   width: 25px;
   height: 25px;
   display: block;
+	color: rgb(35, 39, 51);
 }
 
 .scroll {
@@ -435,6 +440,7 @@ a:hover {
 	bottom: 20px;
 	right: 2%;
 	z-index: 999;
+	color: rgb(35, 39, 51);
 	/*
 	text-indent: 100%;
 	background: url("../img/top.png") 50% 50% no-repeat;
