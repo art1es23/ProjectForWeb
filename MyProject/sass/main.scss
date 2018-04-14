@@ -1,0 +1,11 @@
+body {
+  background-color: #000;
+
+  &:hover {
+    background-color: #0b2e13;
+  }
+
+  &:focus {
+    font-size: 15px;
+  }
+}

@@ -39,13 +39,6 @@ a:hover {
 .logo {
 	width: 130px;
 	height: 60px;
-	opacity: 0.8;
-	transition: 0.5s;
-}
-
-.logo:hover {
-	opacity: 1;
-	transition: 0.5s;
 }
 
 .main-nav {
